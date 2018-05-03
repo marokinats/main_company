@@ -1,0 +1,14 @@
+$colorwhite: #ffffff;
+$colorpurple: #893b67;
+$colorblack: rgba(50,50,50,.8);
+$linecolor: rgba(83, 86, 90, .2);
+$textcolor: rgb(83, 86, 90);
+$titlecolor: #414141;
+
+%clearfix{
+	&:after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+}

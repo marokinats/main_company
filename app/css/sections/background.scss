@@ -1,0 +1,31 @@
+.background {
+	background: url('../img/bg.png') no-repeat;
+	height: 250px;
+	position: relative;
+}
+
+.background__address {
+	width: 130px;
+	height: 28px;
+	background-color: $colorwhite;
+	color: #777b80;
+	font-family: 'vida_33_proregular';
+	font-size: 18px;
+	position: absolute;
+	bottom: 79px;
+	left: 90px;
+	padding: 5px 18px;
+}
+
+.background__object {
+	width: 340px;
+	height: 80px;
+	background-color: $colorwhite;
+	color: $titlecolor;
+	font-size:48px;
+	font-family: 'vida_33_proregular';
+	position: absolute;
+	bottom: 0;
+	left: 90px;
+	padding: 5px 18px;
+}

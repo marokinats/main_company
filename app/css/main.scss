@@ -1,0 +1,16 @@
+// mixins
+@import "layout/mixins.scss";
+
+// layout setups
+@import "layout/normalize";
+@import "layout/adjustment";
+@import "layout/fonts";
+
+// sections
+@import "sections/header";
+@import "sections/background";
+@import "sections/main-info";
+@import "sections/news";
+@import "sections/footer";
+@import "sections/media";
+

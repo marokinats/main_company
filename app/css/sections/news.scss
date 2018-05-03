@@ -1,0 +1,63 @@
+.news {
+	width: 100%;
+	min-height: 150px;
+	background-color: $linecolor;
+}
+
+.news__list {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+
+.news__item {
+	margin-right: 70px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.news__date {
+	color: $colorblack;
+	margin-right: 10px;
+}
+
+.news__rubric {
+	display: inline-block;
+	font-family: vida_33_proregular;
+	font-size: 10px;
+	background-color: $colorwhite;
+	padding: 2px;
+	position: relative;
+	margin-bottom: 5px;
+
+	&_active {
+		background-color: #c5e71b;
+		padding: 2px 10px;
+	}
+}
+
+.news__rubric_active:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 9px solid #c5e71b;
+	border-left: 9px solid rgba(83, 86, 90,0.1);
+	border-bottom: 9px solid #c5e71b;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.news__rubric_active:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 9px solid #c5e71b;
+	border-right: 9px solid rgba(83, 86, 90,0.1);
+	border-bottom: 9px solid #c5e71b;
+	position: absolute;
+	right: 0;
+	top: 0;
+}

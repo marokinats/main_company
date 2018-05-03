@@ -1,0 +1,54 @@
+.footer {
+	width: 100%;
+	min-height: 250px;
+	display: flex;
+	@extend %clearfix;
+}
+
+.footer-contacts {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 20px 90px 20px 110px;
+}
+
+.socials {
+	margin-bottom: 40px;
+}
+
+.footer-contacts span {
+	display: inline-block;
+}
+
+.footer-contacts__phone {
+	font-family: vida_33_proregular;
+	color: #565f66;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.footer-contacts__email {
+	color: $colorpurple;
+}
+
+.footer-nav {
+	display: flex;
+	width: 70%;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+
+.footer-nav__list {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-nav__item {
+	color: $colorpurple;
+	line-height: 24px;
+}
+
+.footer-nav__item_title {
+	font-family: vida_33_proregular;
+	color: $colorblack;
+}
